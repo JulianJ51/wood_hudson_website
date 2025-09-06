@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/julianjordan/Documents/wood_hudson_website/wood_hudson_website/wood_hudson_website.csproj": {}
+    "C:\\Users\\knunn\\Documents\\Projects\\wood_hudson_website\\wood_hudson_website\\wood_hudson_website.csproj": {}
   },
   "projects": {
-    "/Users/julianjordan/Documents/wood_hudson_website/wood_hudson_website/wood_hudson_website.csproj": {
+    "C:\\Users\\knunn\\Documents\\Projects\\wood_hudson_website\\wood_hudson_website\\wood_hudson_website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/julianjordan/Documents/wood_hudson_website/wood_hudson_website/wood_hudson_website.csproj",
+        "projectUniqueName": "C:\\Users\\knunn\\Documents\\Projects\\wood_hudson_website\\wood_hudson_website\\wood_hudson_website.csproj",
         "projectName": "wood_hudson_website",
-        "projectPath": "/Users/julianjordan/Documents/wood_hudson_website/wood_hudson_website/wood_hudson_website.csproj",
-        "packagesPath": "/Users/julianjordan/.nuget/packages/",
-        "outputPath": "/Users/julianjordan/Documents/wood_hudson_website/wood_hudson_website/obj/",
+        "projectPath": "C:\\Users\\knunn\\Documents\\Projects\\wood_hudson_website\\wood_hudson_website\\wood_hudson_website.csproj",
+        "packagesPath": "C:\\Users\\knunn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\knunn\\Documents\\Projects\\wood_hudson_website\\wood_hudson_website\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/julianjordan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\knunn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -68,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
