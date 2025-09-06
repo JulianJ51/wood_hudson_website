@@ -1,0 +1,6 @@
+@wood_hudson_website_HostAddress = http://localhost:5194
+
+GET {{wood_hudson_website_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
